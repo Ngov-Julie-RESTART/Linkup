@@ -1,0 +1,97 @@
+.all-posts {
+    padding-left: 30px;
+    width: 600px;
+}
+
+.post {
+    display: flex;
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.info-post {
+    display: block;
+    padding-left: 20px;
+    border-left: 2px solid black;
+}
+
+.pfp-post {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.pfp-post img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.top-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-post {
+    display: flex;
+}
+
+.name-post h2 {
+    font-size: 20px;
+}
+
+.name-post p {
+    padding-top: 5px;
+    padding-left: 2px;
+    font-size: 15px;
+    color: rgb(99, 99, 99);
+}
+
+.top-post a {
+    color: black;
+}
+
+.top-post a:hover {
+    color: rgb(191, 242, 225);
+}
+
+.text-post p {
+    margin: 10px 0;
+}
+
+.img-post img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.icon-post {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.icon-post p {
+    display: flex;
+    align-items: center;
+}
+
+.icon-post p {
+    padding-right: 20px;
+    color: rgb(191, 242, 225);
+}
+
+.icon-post a {
+    text-decoration: none;
+    padding: 0 5px;
+    color: black;
+}
+
+.icon-post .heart i:hover {
+    color: red;
+}
+
+.icon-post .comment i:hover {
+    color: rgb(144, 173, 224);
+}

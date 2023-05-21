@@ -1,0 +1,44 @@
+@import url("header.css");
+@import url("left-side-bar.css");
+@import url("middle-post.css");
+@import url("supp.css");
+@import url("make-poste.css");
+@import url("tags.css");
+@import url("layout.css");
+@import url("profile-edit.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.body {
+    --background-color: rgb(191, 242, 225);
+    --color: black;
+}
+
+.floating-button a {
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: rgb(191, 242, 225);
+    color: rgb(3, 3, 3);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgb(173, 172, 172);
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+
+}
+
+main {
+    display: flex;
+}
+
+footer {
+    padding: 10px;
+    background-color:rgb(191, 242, 225);
+    border-top: 2px solid rgb(97, 103, 98);
+    margin-top: 10px;
+}

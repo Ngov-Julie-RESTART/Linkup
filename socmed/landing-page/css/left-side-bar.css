@@ -1,0 +1,47 @@
+.side-bar {
+    width: 300px;
+    padding-left: 20px;
+    border-right: 2px solid black;
+}
+
+.utilisateur p {
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+.propriete a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.propriete p {
+    padding-top: 20px;
+}
+
+.propriete a:hover{
+    background-color: rgb(191, 242, 225);
+    border-radius: 20px;
+}
+
+#side-bar-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .side-bar {
+        display: none;
+    }
+
+    #side-bar-mobile {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        padding: 20px;
+        transition: 0.5s ease-in;
+    }
+}
